@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ProductGrpc.Models
 {
-    public class Products
+    public class Product
     {
         public int ProductId { get; set; }
         public string Name { get; set; }
@@ -17,6 +17,6 @@ namespace ProductGrpc.Models
     public enum ProductStatus { 
         INSTOCK = 0,
         LOW = 1,
-        NONE = 2
+        NONE = 2     
     }
 }

@@ -1,4 +1,4 @@
-F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\obj\Debug\net5.0\ProductGrpc.GeneratedMSBuildEditorConfig.editorconfig
+F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\.filenesting.json
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\appsettings.Development.json
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\appsettings.json
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\ProductGrpc.exe
@@ -18,6 +18,7 @@ F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\Grpc.Net.Common.dll
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\obj\Debug\net5.0\ProductGrpc.GeneratedMSBuildEditorConfig.editorconfig
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\obj\Debug\net5.0\ProductGrpc.AssemblyInfoInputs.cache
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\obj\Debug\net5.0\ProductGrpc.AssemblyInfo.cs
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\obj\Debug\net5.0\ProductGrpc.csproj.CoreCompileInputs.cache

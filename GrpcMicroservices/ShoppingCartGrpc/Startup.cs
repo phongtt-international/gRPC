@@ -1,8 +1,12 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using ShoppingCartGrpc.Data;
+using ShoppingCartGrpc.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +21,9 @@ namespace ShoppingCartGrpc
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddGrpc();
+            services.AddDbContext<ShoppingCartContext>(options =>
+                   options.UseInMemoryDatabase("ShoppingCart"));
+            services.AddAutoMapper(typeof(Startup));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -31,7 +38,7 @@ namespace ShoppingCartGrpc
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGrpcService<GreeterService>();
+                endpoints.MapGrpcService<ShoppingCartService>();
 
                 endpoints.MapGet("/", async context =>
                 {

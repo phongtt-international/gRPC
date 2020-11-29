@@ -8,6 +8,8 @@ F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\ProductGrpc.runtimec
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\ProductGrpc.dll
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\ref\ProductGrpc.dll
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\ProductGrpc.pdb
+F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\AutoMapper.dll
+F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\Google.Protobuf.dll
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\Grpc.AspNetCore.Server.dll
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\Grpc.AspNetCore.Server.ClientFactory.dll
@@ -18,6 +20,7 @@ F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\Grpc.Net.Common.dll
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\obj\Debug\net5.0\ProductGrpc.csprojAssemblyReference.cache
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\obj\Debug\net5.0\ProductGrpc.GeneratedMSBuildEditorConfig.editorconfig
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\obj\Debug\net5.0\ProductGrpc.AssemblyInfoInputs.cache
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\obj\Debug\net5.0\ProductGrpc.AssemblyInfo.cs
@@ -32,6 +35,3 @@ F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\obj\Debug\net5.0\ProductGrpc.dll
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\obj\Debug\net5.0\ref\ProductGrpc.dll
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\obj\Debug\net5.0\ProductGrpc.pdb
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\obj\Debug\net5.0\ProductGrpc.genruntimeconfig.cache
-F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\AutoMapper.dll
-F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\obj\Debug\net5.0\ProductGrpc.csprojAssemblyReference.cache

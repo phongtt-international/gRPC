@@ -32,4 +32,6 @@ F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\obj\Debug\net5.0\ProductGrpc.dll
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\obj\Debug\net5.0\ref\ProductGrpc.dll
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\obj\Debug\net5.0\ProductGrpc.pdb
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\obj\Debug\net5.0\ProductGrpc.genruntimeconfig.cache
+F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\AutoMapper.dll
+F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpc\obj\Debug\net5.0\ProductGrpc.csprojAssemblyReference.cache

@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "sBgq96q2DPDVkm2zwRsTJN8dGIt/k6ZPHIzsqeJ6LauAQbZd6RT6xCBFspaD1CKYxqIcstGBgqrlulZHyRXTQw==",
+  "dgSpecHash": "ThHbshxYKZQs5xulJUEhlYfow7LvCN16phgkSaIkZ0NyqNRrbKOo9Zu3uXROxdwGxOu9e+6cWwnZIKLuBS5aJA==",
   "success": true,
   "projectFilePath": "F:\\gRPC\\gRPC\\GrpcMicroservices\\ProductGrpc\\ProductGrpc.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Dell\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\google.protobuf\\3.13.0\\google.protobuf.3.13.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\grpc.aspnetcore\\2.33.1\\grpc.aspnetcore.2.33.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\grpc.aspnetcore.server\\2.33.1\\grpc.aspnetcore.server.2.33.1.nupkg.sha512",
@@ -13,6 +15,7 @@
     "C:\\Users\\Dell\\.nuget\\packages\\grpc.net.clientfactory\\2.33.1\\grpc.net.clientfactory.2.33.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\grpc.net.common\\2.33.1\\grpc.net.common.2.33.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\grpc.tools\\2.33.1\\grpc.tools.2.33.1.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0\\microsoft.entityframeworkcore.5.0.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.0\\microsoft.entityframeworkcore.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.0\\microsoft.entityframeworkcore.analyzers.5.0.0.nupkg.sha512",
@@ -30,6 +33,7 @@
     "C:\\Users\\Dell\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
   ],
   "logs": []

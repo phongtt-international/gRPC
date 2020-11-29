@@ -29,3 +29,4 @@ F:\gRPC\gRPC\GrpcMicroservices\ProductGrpcClient\obj\Debug\net5.0\ProductGrpcCli
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpcClient\obj\Debug\net5.0\ref\ProductGrpcClient.dll
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpcClient\obj\Debug\net5.0\ProductGrpcClient.pdb
 F:\gRPC\gRPC\GrpcMicroservices\ProductGrpcClient\obj\Debug\net5.0\ProductGrpcClient.genruntimeconfig.cache
+F:\gRPC\gRPC\GrpcMicroservices\ProductGrpcClient\obj\Debug\net5.0\ProductGrpcClient.csprojAssemblyReference.cache

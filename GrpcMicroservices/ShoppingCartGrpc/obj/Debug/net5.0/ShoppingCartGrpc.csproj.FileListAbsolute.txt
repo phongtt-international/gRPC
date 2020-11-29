@@ -33,3 +33,4 @@ F:\gRPC\gRPC\GrpcMicroservices\ShoppingCartGrpc\obj\Debug\net5.0\ShoppingCartGrp
 F:\gRPC\gRPC\GrpcMicroservices\ShoppingCartGrpc\obj\Debug\net5.0\ref\ShoppingCartGrpc.dll
 F:\gRPC\gRPC\GrpcMicroservices\ShoppingCartGrpc\obj\Debug\net5.0\ShoppingCartGrpc.pdb
 F:\gRPC\gRPC\GrpcMicroservices\ShoppingCartGrpc\obj\Debug\net5.0\ShoppingCartGrpc.genruntimeconfig.cache
+F:\gRPC\gRPC\GrpcMicroservices\ShoppingCartGrpc\obj\Debug\net5.0\ShoppingCartGrpc.csprojAssemblyReference.cache

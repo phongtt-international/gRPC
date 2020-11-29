@@ -1,0 +1,4 @@
+obj\Debug\net5.0\Protos/Product.cs \
+obj\Debug\net5.0\Protos/ProductGrpc.cs: C:/Users/Dell/.nuget/packages/grpc.tools/2.33.1/build/native/include/google/protobuf/Timestamp.proto\
+ C:/Users/Dell/.nuget/packages/grpc.tools/2.33.1/build/native/include/google/protobuf/Empty.proto\
+ Protos/product.proto

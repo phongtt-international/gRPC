@@ -17,12 +17,14 @@ namespace ShoppingCartGrpc.Services
         private readonly ShoppingCartContext _shoppingCartContext;
         private readonly ILogger<ShoppingCartService> _logger;
         private readonly IMapper _mapper;
+        private readonly DiscountService _discountService;
 
-        public ShoppingCartService(ShoppingCartContext shoppingCartContext, ILogger<ShoppingCartService> logger, IMapper mapper)
+        public ShoppingCartService(ShoppingCartContext shoppingCartContext, ILogger<ShoppingCartService> logger, IMapper mapper, DiscountService discountService)
         {
             _shoppingCartContext = shoppingCartContext ?? throw new ArgumentNullException(nameof(shoppingCartContext));
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
             _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
+            _discountService = discountService ?? throw new ArgumentNullException(nameof(discountService));
         }
 
         public override async Task<ShoppingCartModel> GetShoppingCart(GetShoppingCartRequest request, ServerCallContext context)
@@ -52,7 +54,8 @@ namespace ShoppingCartGrpc.Services
             var shoppingCartModel = _mapper.Map<ShoppingCartModel>(shoppingCart);
             return shoppingCartModel;
         }
-        public override async Task<AddItemIntoShoppingCartResponse> AddItemIntoShoppingCart(IAsyncStreamReader<AddItemIntoShoppingCartRequest> requestStream, ServerCallContext context)
+        public override async Task<AddItemIntoShoppingCartResponse> AddItemIntoShoppingCart(IAsyncStreamReader<AddItemIntoShoppingCartRequest> requestStream, 
+            ServerCallContext context)
         {
             // Get sc if exist or not
             // Check item if exist in sc or not
@@ -74,18 +77,18 @@ namespace ShoppingCartGrpc.Services
                 }else
                 {
                     // GRPC CALL DISCOUNT SERVICE -- check discount and set the item price
-                    var discount = 100;
-                    newAddedCartItem.Price -= discount;
+                    var discount =  await _discountService.GetDiscount(requestStream.Current.DiscountCode);
+                    newAddedCartItem.Price -= discount.Amount;
                     shoppingCart.Items.Add(cartItem);
                 }
-                var insertCount = await _shoppingCartContext.SaveChangesAsync();
-                var response = new AddItemIntoShoppingCartResponse
-                {
-                    Success = insertCount > 0,
-                    InsertCount = insertCount
-                };
-                return response;
             }
+            var insertCount = await _shoppingCartContext.SaveChangesAsync();
+            var response = new AddItemIntoShoppingCartResponse
+            {
+                Success = insertCount > 0,
+                InsertCount = insertCount
+            };
+            return response;
         }
         public override async Task<RemoveItemIntoShoppingCartResponse> RemoveItemIntoShoppingCart(RemoveItemIntoShoppingCartRequest request, ServerCallContext context)
         {

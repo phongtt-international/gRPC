@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductGrpcClient", "Produc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductWorkerService", "ProductWorkerService\ProductWorkerService.csproj", "{92988346-68A9-469D-82FF-9684D77BF2C2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{439B796D-F8C7-45BD-9593-3DD58B424489}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShoppingCart", "ShoppingCart", "{0CDAD63D-B520-492A-804C-F272A5E79B23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCartGrpc", "ShoppingCartGrpc\ShoppingCartGrpc.csproj", "{BBAD4FD6-EB45-4F47-82EF-87BD4316279F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +33,19 @@ Global
 		{92988346-68A9-469D-82FF-9684D77BF2C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92988346-68A9-469D-82FF-9684D77BF2C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92988346-68A9-469D-82FF-9684D77BF2C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBAD4FD6-EB45-4F47-82EF-87BD4316279F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBAD4FD6-EB45-4F47-82EF-87BD4316279F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBAD4FD6-EB45-4F47-82EF-87BD4316279F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBAD4FD6-EB45-4F47-82EF-87BD4316279F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71B4FDD6-54C0-4F8D-863B-610C66B0496B} = {439B796D-F8C7-45BD-9593-3DD58B424489}
+		{9EC840A5-C122-44C8-9CFB-72474B63C22B} = {439B796D-F8C7-45BD-9593-3DD58B424489}
+		{92988346-68A9-469D-82FF-9684D77BF2C2} = {439B796D-F8C7-45BD-9593-3DD58B424489}
+		{BBAD4FD6-EB45-4F47-82EF-87BD4316279F} = {0CDAD63D-B520-492A-804C-F272A5E79B23}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61CE1F4A-5FAC-4E8E-91F8-9CB5AA554E5A}

@@ -2,6 +2,11 @@ syntax = "proto3";
 
 option csharp_namespace = "ProductGrpc.Protos";
 
+import "google/protobuf/Timestamp.proto";
+import "google/protobuf/Empty.proto";
+
+
+
 service ProductProtoService{
 	rpc GetProduct(GetProductRequest) returns (ProductModel);
 	rpc GetAllProducts(GetAllProductsRequest) returns (stream ProductModel);
@@ -30,7 +35,7 @@ message DeleteProductRequest {
 message DeleteProductResponse {
 	bool success = 1;
 }
-message InsertBulkProduct{
+message InsertBulkProductResponse{
 	bool success = 1;
 	int32 insertCount = 2;
 }
@@ -44,7 +49,7 @@ message ProductModel{
 }
 
 enum ProductStatus{
-	INSTOCK = 0,
-    LOW = 1,
-    NONE = 2    
-}
+	INSTOCK = 0;
+    LOW = 1;
+    NONE = 2;    
+};
